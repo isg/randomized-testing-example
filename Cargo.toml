@@ -1,0 +1,12 @@
+[package]
+name = "randomized-testing"
+version = "0.1.0"
+authors = ["Isaac Goldberg <isaac@figma.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7"
+rm = "0.3"
+isaac = "0.1"
