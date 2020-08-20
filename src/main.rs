@@ -21,21 +21,6 @@ fn binary_search(array: &[u32], value: u32) -> Option<usize> {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 fn generate_random_input(seed: u64) -> (Vec<u32>, u32) {
     // RNG (random number generator) from the seed!
     let mut rng = StdRng::seed_from_u64(seed);
@@ -63,13 +48,6 @@ fn generate_random_input(seed: u64) -> (Vec<u32>, u32) {
 
     (input, value)
 }
-
-
-
-
-
-
-
 
 /// Returns whether or not this test passed.
 fn test(seed: u64) -> bool {
@@ -102,22 +80,6 @@ fn test(seed: u64) -> bool {
         true
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 fn main() {
     let args: Vec<String> = env::args().collect();
